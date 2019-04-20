@@ -1,5 +1,5 @@
 {
-  "name": "cors-anywhere",
+  "name": "cors-escape",
   "version": "0.4.0",
   "description": "CORS Anywhere is a reverse proxy which adds CORS headers to the proxied request. Request URL is taken from the path",
   "license": "MIT",
@@ -21,7 +21,7 @@
   ],
   "main": "server.js",
   "dependencies": {
-    "http-proxy": "1.11.1",
+    "http-proxy": "^1.11.1",
     "proxy-from-env": "0.0.1"
   },
   "devDependencies": {
